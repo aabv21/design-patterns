@@ -34,7 +34,7 @@ class Singleton {
   }
 }
 
-const clientCode = () => {
+const singletonClientCode = () => {
   const s1 = Singleton.instance;
   const s2 = Singleton.instance;
 
@@ -45,4 +45,4 @@ const clientCode = () => {
   }
 };
 
-clientCode();
+singletonClientCode();
